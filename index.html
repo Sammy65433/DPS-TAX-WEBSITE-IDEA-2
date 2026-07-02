@@ -945,28 +945,29 @@
         }
 
         .realty-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
 
-.realty-side-image {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 14px;
-  border: 1px solid #e6d9c2;
-}
-@media (max-width: 700px) {
-  .realty-images {
-    grid-template-columns: 1fr;
-  }
+        .realty-side-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 14px;
+            border: 1px solid #e6d9c2;
+        }
 
-  .realty-side-image {
-    height: 150px;
-  }
-}
+        @media (max-width: 700px) {
+            .realty-images {
+                grid-template-columns: 1fr;
+            }
+
+            .realty-side-image {
+                height: 150px;
+            }
+        }
 
 
         @media (max-width: 700px) {
@@ -1030,9 +1031,25 @@
         }
 
         @media (max-width: 760px) {
-            nav.links {
-                display: none;
-            }
+  nav.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.8rem;
+    width: 100%;
+  }
+
+  nav.links a {
+    font-size: 0.82rem;
+  }
+
+  nav.links a[href="#hours"],
+  nav.links a[href="#realty"] {
+    display: none;
+  }
+
+
+
+
 
             .hero h1 {
                 font-size: 2rem;
@@ -1456,10 +1473,10 @@
                 <p><strong>Ricot Casimir</strong> &mdash; RC Realty Group</p>
                 <p>Phone: <a href="tel:9738859929">(973) 885-9929</a></p>
                 <p>Email: <a href="mailto:ricot.casimir@gmail.com">Ricot.Casimir@gmail.com</a></p>
-                                    <a href="https://www.google.com/maps/search/1811+Springfield+Ave+Maplewood+NJ+07040" target="_blank"
-                        rel="noopener noreferrer" class="card-link">
-                        1811 Springfield Ave, Maplewood, NJ 07040
-                    </a>
+                <a href="https://www.google.com/maps/search/1811+Springfield+Ave+Maplewood+NJ+07040" target="_blank"
+                    rel="noopener noreferrer" class="card-link">
+                    1811 Springfield Ave, Maplewood, NJ 07040
+                </a>
                 <img src="./public/real-estate-keys2.jpg" alt="Real estate services" class="realty-side-image" />
 
             </div>
