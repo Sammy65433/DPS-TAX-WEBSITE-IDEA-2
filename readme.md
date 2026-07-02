@@ -1453,3 +1453,46 @@ If you want, I can pick 3 exact Unsplash image URLs that match your site style.
 </body>
 
 </html>
+
+
+
+`Fill out the form, select a service and preparer, and we’ll contact you to confirm your appointment.`
+
+
+`Fill out the form below, choose your service and preferred preparer, and we’ll contact you to confirm your appointment.`
+
+Best option:
+`Fill out the form below, select your service and preferred preparer, and we’ll contact you to confirm your appointment.`
+
+
+
+`Please upload your ID, tax documents, and required household information in the portal. Be sure to update your contact, preparer, and direct deposit details. Contact our office first to receive your secure upload link.`
+
+
+`Upload your ID, tax documents, and required information in the portal, and update your contact, preparer, and direct deposit details. Contact our office first for secure access.`
+
+Best short version:
+`Upload your ID, tax documents, and required information in the portal. Update your contact, preparer, and direct deposit details, and contact our office first for secure access.`
+
+<section class="section booking-section" id="booking">
+  <div class="container">
+    <p class="eyebrow" style="text-align:center;">Schedule Your Visit</p>
+    <h2 class="h2-sub" style="text-align:center;">Book Your Appointment</h2>
+    <p class="section-text" style="margin-left:auto;margin-right:auto;text-align:center;">
+      Fill out the form below, select your Service and Preferred Preparer, and we will contact you to confirm your appointment.
+    </p>
+
+    <div class="card payment-card">
+      <h3>Payment Options</h3>
+      <p>Please include your last name and tax year in the payment note.</p>
+      <p><strong>Venmo:</strong> <a href="https://venmo.com/u/DPSTax" target="_blank" rel="noopener noreferrer" class="payment-link">@DPSTax</a></p>
+      <p><strong>Cash App:</strong> $DPSTAX1811</p>
+      <p><strong>Zelle:</strong> <a href="tel:8627661725" class="payment-link">862-766-1725</a></p>
+      <p><strong>Apple Pay:</strong> <a href="tel:8627661725" class="payment-link">862-766-1725</a></p>
+    </div>
+
+    <form class="contact-form">
+      ...
+    </form>
+  </div>
+</section>
